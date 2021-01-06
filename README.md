@@ -4,7 +4,7 @@
 
 Submitted by: **Erin Byrd**
 
-Time spent: **1** hour spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
@@ -22,13 +22,15 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
+* [x] Different colors for background and text
+* [x] Adding second view controllor for Settings scren
 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-https://drive.google.com/file/d/1hcXqCE0iUtQ-GjglUnmiUVpsOZs5oHSY/view?usp=sharing
+https://i.imgur.com/ntUjWMK.gifv
 
 ## Notes
 
