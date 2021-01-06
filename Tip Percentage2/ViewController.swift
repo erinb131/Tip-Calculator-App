@@ -15,12 +15,32 @@ class ViewController: UIViewController
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     
+    @IBOutlet weak var billAmountText: UILabel!
+    @IBOutlet weak var tip: UILabel!
+    @IBOutlet weak var total: UILabel!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.title = "Tip Calculator"
+        
+        tipPercentageLabel.text = "$0.00"
+        totalLabel.text = "$0.00"
+        
+        view.backgroundColor = UIColor.green
+        
+        tipPercentageLabel.textColor = UIColor.purple
+        totalLabel.textColor = UIColor.purple
+        billAmountText.textColor = UIColor.purple
+        tip.textColor = UIColor.purple
+        total.textColor = UIColor.purple
     }
-
+    
+    @IBAction func Settings(_ sender: UIBarButtonItem)
+    {
+    }
     
     @IBAction func onTap(_ sender: UITapGestureRecognizer)
     {
